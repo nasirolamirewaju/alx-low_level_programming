@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
  * main-This is Entry prog for last
@@ -23,5 +21,6 @@ int main(void)
 			putchar (d);
 			d++;
 		}
+	putchar('\n');
 	return (0);
 }
