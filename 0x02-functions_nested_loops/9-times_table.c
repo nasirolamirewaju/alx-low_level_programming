@@ -8,9 +8,9 @@ void times_table(void)
 {
 	int a, b, solution;
 
-	for (a = 0; a < 10; a++)
+	for (a = 0 ; a < 10 ; a++)
 	{
-		for (b = 0; b < 10; b++)
+		for (b = 0 ; b < 10 ; b++)
 		{
 			solution = a * b;
 			if (b == 0)
@@ -21,7 +21,7 @@ void times_table(void)
 				if (b != 9)
 					printf(", ");
 			}
-			printf("\n");
 		}
+		printf("\n");
 	}
 }
