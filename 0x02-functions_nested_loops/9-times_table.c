@@ -19,8 +19,7 @@ void times_table(void)
 			{
 				printf("%2d", solution);
 				if (b != 9)
-					printf(",");
-			printf("%2d, ", solution);
+					printf(", ");
 			}
 			printf("\n");
 		}
