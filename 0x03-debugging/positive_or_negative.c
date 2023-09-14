@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include "main.h"
+/**
+* main - positive and negative
+* Return: void
+*/
 void positive_or_negative(int i)
 {
 	if (i > 0)
