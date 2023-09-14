@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print_diagonal: program diagonally parked
+* print_diagonal - program diagonally '\' character
 * @n: parameter
 * Return: nothing
 */
