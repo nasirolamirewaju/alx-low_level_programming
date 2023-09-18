@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
-* print_rev - proram for string in reverse
-* @s: to print string
+* print_rev - prog string in reverse
+* @s: it prints string
 * Return: it returns void
 */
 
 void print_rev(char *s)
 {
-	int x;
+	int y;
 	int count = 0;
 
-	for (x = 0; s[x] != '0'; x++)
+	for (y = 0; s[y] != '\0'; y++)
 		count++;
-	for (x = count - 1; x >= 0; x--)
-		_putchar(s[x]);
+	for (y = count - 1; y >= 0; y--)
+		_putchar(s[y]);
 	_putchar('\n');
 }
