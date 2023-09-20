@@ -1,10 +1,5 @@
 #include <stdio.h>
 
-/**
-* main - it prog main magic
-* Return: it returns 0
-*/
-
 int main(void)
 {
 	int n;
