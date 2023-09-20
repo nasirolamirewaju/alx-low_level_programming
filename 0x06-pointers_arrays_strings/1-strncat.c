@@ -1,23 +1,23 @@
 #include "main.h"
 
 /**
-* _strncat - prog to concatenate strings
-* @dest: parameter of destination string
-* @src: parameter of source string
-* @n: parameter
+* _strncat - it concatenate two strings
+* @dest: parameter of destination
+* @src: parameter of source
+* @n: parameter of number strings
 * Return: it returns dest
 */
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int len = strlen(dest);
-	int a;
+	int x, y;
 
-	for (a = 0; a <= n && *src != '\0'; a++)
-	{
-		dest[len + a] = *src;
-		src++;
-	}
-	dest[len - a] = '\0';
+	y = 0;
+
+	while (dest[x])
+		x++;
+	for (y = 0; y < n && src[y] != '\0'; y++)
+		dest[x + y] = src[y];
+	dest[x + y] = '\0';
 	return (dest);
 }
