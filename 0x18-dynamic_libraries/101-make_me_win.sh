@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc *.o -fPIC -shared -o libgiga.so
-LD_PRELOAD=$PWD/libgiga.so
+wget -P .. https://raw.githubusercontent.com/Olaguru/alx-low_level_programming/master/0x18-dynamic_libraries/libgiga.so
+export LD_PRELOAD="$PWD/../libgiga.so"
